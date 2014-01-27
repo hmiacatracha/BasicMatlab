@@ -1,4 +1,4 @@
-%Autora: Heidy Mabel Izaguirre 
+%Autora: HMIA 
 %Calculo de expresion del polinomio de Lagrange
 %DIFERENCIAS DIVIDIDAS.
 
@@ -10,9 +10,9 @@ n=length(nds);
  c=1:1:n;
  k=1;
 %Pregunto si existen las variables sino le indico al usuario que tiene que
-%hacer para añadir el vector
+%hacer para aï¿½adir el vector
 if exist('nds')~=1 %#ok<*EXIST>
-            disp('            Sr. Usuario debe de añadir en la consola, valores de los siguientes a los vectores: "nds" y "y_nds"                ')
+            disp('            Sr. Usuario debe de aï¿½adir en la consola, valores de los siguientes a los vectores: "nds" y "y_nds"                ')
             disp(       'Ejemplo: nds=[1,2,3,4];  y_nds=[-1,3,11,27];'  )
             disp('recuerde que los vectores son del mismo numero de componentes') 
             break
@@ -24,7 +24,7 @@ else
     break
     else
     if length(y_nds)~=n %#ok<*ALIGN>
-    error('Los vectores nds e y_nds debe tener el mismo el número de componentes')
+    error('Los vectores nds e y_nds debe tener el mismo el nï¿½mero de componentes')
     else
        
         %Este for tiene un doble bucle(Uno para calcular cada componente del vector
